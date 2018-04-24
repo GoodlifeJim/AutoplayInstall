@@ -7,7 +7,7 @@
 <Title>Equitrac Installer</Title>
 <Author/>
 <Company>Nuance Communication</Company>
-<Copyright>Copyright © 2018</Copyright>
+<Copyright>Copyright Â© 2018</Copyright>
 <URL/>
 <Email/>
 <Comments/>
@@ -297,7 +297,7 @@ function CheckPreRequisites()
 		szMsg = "OS determined to be Windows 7 from OS Name \""..sOsInstalled.."\"\r\n ";
 		OutputDebugMsg("Global Functions - CheckPreRequisites: "..szMsg);
 		g_bWindows7 = true;
-		g_bLocalDbOs = true;
+		g_bLocalDbOs = false;
 	else
 		szMsg = "OS determined to NOT be Windows 7 from OS Name \""..sOsInstalled.."\"\r\n ";
 		OutputDebugMsg("Global Functions - CheckPreRequisites: "..szMsg);
@@ -3595,7 +3595,7 @@ function CheckASPNetVersion()
 	--[[
 	To check to see if ASP.NET 4.0 is installed and registered with IIS, do the following:
 
-	•	For All Versions of Windows
+	Â•	For All Versions of Windows
 	1.	Look for the following key in the registry: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0
 	2.	With the 4.0.30319 key selected in the left-hand window, look for the DllFullPath entry in the right-hand window.
 	3.	If the DllFullPath entry is present and has a path value in the Data column, then ASP.NET is installed and registered with IIS.
@@ -3662,7 +3662,7 @@ IwEAAMUNAAA=
 <Author/>
 <Contact/>
 <Web/>
-<Copyright>Copyright © 2018</Copyright>
+<Copyright>Copyright Â© 2018</Copyright>
 <Desc/>
 <Categories>General</Categories>
 <Picture/>
@@ -3939,7 +3939,7 @@ g_tBrandNames 					= {};
 g_sBrand 						= "";
 g_sBrand_imBackGroundFile = "AutoPlay\\Images\\bkg.png";
 g_sBrand_imSplashPathFile = "AutoPlay\\Images\\launch.jpg";
-g_sCopyrightNotice = "Copyright © 2018 Nuance Communications, Inc. All rights reserved.";
+g_sCopyrightNotice = "Copyright Â© 2018 Nuance Communications, Inc. All rights reserved.";
 
 -- begin code
 Is64BitOS();
@@ -6830,7 +6830,7 @@ NormalMenuItem(menuLabelName, menuLabelNum, "");
 </Action>
 </Actions>
 <Text>
-<Body>Copyright © </Body>
+<Body>Copyright Â© </Body>
 <NormalColor>7433837</NormalColor>
 <HighlightColor>7433837</HighlightColor>
 <MouseDownColor>7433837</MouseDownColor>
@@ -13675,7 +13675,7 @@ NormalMenuItem(menuLabelName, menuLabelNum, "");
 </Action>
 </Actions>
 <Text>
-<Body>Copyright ©</Body>
+<Body>Copyright Â©</Body>
 <NormalColor>7433837</NormalColor>
 <HighlightColor>7433837</HighlightColor>
 <MouseDownColor>7433837</MouseDownColor>
@@ -14508,7 +14508,7 @@ OutputDebugMsg("----------------------------------------------\r\nEXIT Downloads
 </Action>
 </Actions>
 <Text>
-<Body>Copyright © 2018 Nuance Communications, Inc. All rights reserved.</Body>
+<Body>Copyright Â© 2018 Nuance Communications, Inc. All rights reserved.</Body>
 <NormalColor>7433837</NormalColor>
 <HighlightColor>7433837</HighlightColor>
 <MouseDownColor>7433837</MouseDownColor>
@@ -16048,7 +16048,7 @@ OutputDebugMsg("----------------------------------------------\r\nEXIT Silent In
 </Action>
 </Actions>
 <Text>
-<Body>Copyright © 2018 Nuance Communications, Inc. All rights reserved.</Body>
+<Body>Copyright Â© 2018 Nuance Communications, Inc. All rights reserved.</Body>
 <NormalColor>7433837</NormalColor>
 <HighlightColor>7433837</HighlightColor>
 <MouseDownColor>7433837</MouseDownColor>
